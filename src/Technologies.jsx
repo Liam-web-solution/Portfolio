@@ -8,14 +8,15 @@ import reactImg from './reactlogo.png';
 import supabaseimg from './supabaselogo.jpg'
 
 function Technologies() {
-  const tech = [
-    { name: "HTML5", logo: html5Img },
-    { name: "CSS3 / Flexbox", logo: cssImg },
-    { name: "JavaScript", logo: jsImg },
-    { name: "Tailwind CSS", logo: tailwindImg },
-    { name: "React", logo: reactImg },
-    { name: "Supabase", logo: supabaseimg },
-  ];
+  const html = [{ name: "HTML5", logo: html5Img },]
+  const css  = [{ name: "CSS", logo: cssImg},]
+  const javascript = [ { name: "JavaScript", logo: jsImg },]
+  const tailwind = [{ name: "Tailwind CSS", logo: tailwindImg },]
+  const react = [ { name: "React", logo: reactImg },]
+  const supbas = [ { name: "Supabase", logo: supabaseimg },]
+   
+    
+
 
   return (
     <section className="py-10 bg-slate-900/10">
@@ -24,14 +25,71 @@ function Technologies() {
           Technologies Used
         </h3>
 
-        <div className="flex flex-wrap gap-4 justify-center">
-          {tech.map((t, idx) => (
+        <div className="grid sm:grid-cols-6 gap-3 max-sm:grid-cols-2">
+          {html.map((h, idx) => (
             <div
               key={idx}
-              className="min-w-[10rem] flex-1 md:flex-none rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
               {/* Logo */}
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
+                <img
+                  src={h.logo}
+                  alt={h.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Tech Name */}
+              <div className="text-sm sm:text-base">{h.name}</div>
+            </div>
+          ))}
+
+          {css.map((c, idx) => (
+            <div
+              key={idx}
+              className="min-w-[6rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+            >
+              {/* Logo */}
+              <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
+                <img
+                  src={c.logo}
+                  alt={c.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Tech Name */}
+              <div className="text-sm sm:text-base">{c.name}</div>
+            </div>
+          ))}
+
+           {javascript.map((j, idx) => (
+            <div
+              key={idx}
+              className="min-w-[6rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+            >
+              {/* Logo */}
+              <div className="w-12 h-10 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
+                <img
+                  src={j.logo}
+                  alt={j.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Tech Name */}
+              <div className="text-sm sm:text-base">{j.name}</div>
+            </div>
+          ))}
+
+          {tailwind.map((t, idx) => (
+            <div
+              key={idx}
+              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex md:flex-none rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+            >
+              {/* Logo */}
+              <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
                 <img
                   src={t.logo}
                   alt={t.name}
@@ -43,6 +101,47 @@ function Technologies() {
               <div className="text-sm sm:text-base">{t.name}</div>
             </div>
           ))}
+          
+          {react.map((r, idx) => (
+            <div
+              key={idx}
+              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+            >
+              {/* Logo */}
+              <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
+                <img
+                  src={r.logo}
+                  alt={r.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Tech Name */}
+              <div className="text-sm sm:text-base">{r.name}</div>
+            </div>
+          ))}
+
+          {supbas.map((s, idx) => (
+            <div
+              key={idx}
+              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+            >
+              {/* Logo */}
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
+                <img
+                  src={s.logo}
+                  alt={s.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Tech Name */}
+              <div className="text-sm sm:text-base">{s.name}</div>
+            </div>
+          ))}
+
+
+          
         </div>
       </div>
     </section>
