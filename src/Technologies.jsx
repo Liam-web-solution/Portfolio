@@ -8,12 +8,12 @@ import reactImg from './reactlogo.png';
 import supabaseimg from './supabaselogo.jpg'
 
 function Technologies() {
-  const html = [{ name: "HTML5", logo: html5Img },]
+  const html = [{ name: "HTML5", logo: html5Img }]
   const css  = [{ name: "CSS", logo: cssImg},]
-  const javascript = [ { name: "JavaScript", logo: jsImg },]
-  const tailwind = [{ name: "Tailwind CSS", logo: tailwindImg },]
+  const javascript = [ { name: "JavaScript", logo: jsImg }]
+  const tailwind = [{ name: "Tailwind CSS", logo: tailwindImg }]
   const react = [ { name: "React", logo: reactImg },]
-  const supbas = [ { name: "Supabase", logo: supabaseimg },]
+  const supbas = [ { name: "Supabase", logo: supabaseimg }]
    
     
 
