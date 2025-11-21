@@ -31,7 +31,7 @@ function Technologies() {
               key={idx}
               className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
-              {/* Logo */}
+              
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
                 <img
                   src={h.logo}
@@ -40,7 +40,7 @@ function Technologies() {
                 />
               </div>
 
-              {/* Tech Name */}
+              
               <div className="text-sm sm:text-base">{h.name}</div>
             </div>
           ))}
@@ -50,7 +50,7 @@ function Technologies() {
               key={idx}
               className="min-w-[6rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
-              {/* Logo */}
+              
               <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
                 <img
                   src={c.logo}
@@ -59,7 +59,7 @@ function Technologies() {
                 />
               </div>
 
-              {/* Tech Name */}
+            
               <div className="text-sm sm:text-base">{c.name}</div>
             </div>
           ))}
@@ -69,7 +69,7 @@ function Technologies() {
               key={idx}
               className="min-w-[6rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
-              {/* Logo */}
+              
               <div className="w-12 h-10 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
                 <img
                   src={j.logo}
@@ -78,7 +78,7 @@ function Technologies() {
                 />
               </div>
 
-              {/* Tech Name */}
+            
               <div className="text-sm sm:text-base">{j.name}</div>
             </div>
           ))}
@@ -86,9 +86,9 @@ function Technologies() {
           {tailwind.map((t, idx) => (
             <div
               key={idx}
-              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex md:flex-none rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex  rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
-              {/* Logo */}
+            
               <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
                 <img
                   src={t.logo}
@@ -97,7 +97,7 @@ function Technologies() {
                 />
               </div>
 
-              {/* Tech Name */}
+              
               <div className="text-sm sm:text-base">{t.name}</div>
             </div>
           ))}
@@ -107,7 +107,7 @@ function Technologies() {
               key={idx}
               className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
-              {/* Logo */}
+            
               <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
                 <img
                   src={r.logo}
@@ -116,7 +116,7 @@ function Technologies() {
                 />
               </div>
 
-              {/* Tech Name */}
+              
               <div className="text-sm sm:text-base">{r.name}</div>
             </div>
           ))}
@@ -126,7 +126,7 @@ function Technologies() {
               key={idx}
               className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
-              {/* Logo */}
+              
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
                 <img
                   src={s.logo}
@@ -135,7 +135,7 @@ function Technologies() {
                 />
               </div>
 
-              {/* Tech Name */}
+              
               <div className="text-sm sm:text-base">{s.name}</div>
             </div>
           ))}
