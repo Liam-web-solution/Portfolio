@@ -29,7 +29,7 @@ function Technologies() {
           {html.map((h, idx) => (
             <div
               key={idx}
-              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6 rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
               
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
@@ -48,7 +48,7 @@ function Technologies() {
           {css.map((c, idx) => (
             <div
               key={idx}
-              className="min-w-[6rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6 rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
               
               <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
@@ -67,7 +67,7 @@ function Technologies() {
            {javascript.map((j, idx) => (
             <div
               key={idx}
-              className="min-w-[6rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6 rem]  max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
               
               <div className="w-12 h-10 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
@@ -86,7 +86,7 @@ function Technologies() {
           {tailwind.map((t, idx) => (
             <div
               key={idx}
-              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex  rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6 rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex  rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
             
               <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
@@ -105,7 +105,7 @@ function Technologies() {
           {react.map((r, idx) => (
             <div
               key={idx}
-              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6 rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
             
               <div className="w-10 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">
@@ -124,7 +124,7 @@ function Technologies() {
           {supbas.map((s, idx) => (
             <div
               key={idx}
-              className="min-w-[6rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
+              className="min-w-[6 rem] max-sm:flex max-sm:flex-wrap sm:flex-wrap sm:flex rounded-lg border border-slate-700/40 p-4 text-slate-300 flex items-center gap-2 shadow-sm hover:scale-105 transition-transform"
             >
               
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-md bg-slate-800/60 flex items-center justify-center overflow-hidden md:flex-wrap">

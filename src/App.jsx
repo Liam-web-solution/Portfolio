@@ -12,7 +12,8 @@ import Projects from './Projects'
 function App() {
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 antialiased">
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900 to-slate-800/90 pointer-events-none" />
+      <div className="absolute inset-0 `bg-gradient-to-b` from-slate-900 via-slate-900 to-slate-800/90 pointer-events-none
+" />
 
         <Header />
 
